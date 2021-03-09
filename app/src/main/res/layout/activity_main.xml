@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/c_De"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c_Ass"
+                style="@style/abc"
+                android:text="AC" />
+
+            <TextView
+                android:id="@+id/c_Seven"
+                style="@style/ab"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/c_Four"
+                style="@style/ab"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/c_One"
+                style="@style/ab"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/c_Del"
+                style="@style/ab"
+                android:text="Del" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c_Open"
+                style="@style/abc"
+                android:text="(" />
+
+            <TextView
+                android:id="@+id/c_Eight"
+                style="@style/ab"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/c_Five"
+                style="@style/ab"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/c_Two"
+                style="@style/ab"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/c_Zero"
+                style="@style/ab"
+                android:text="0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c_Close"
+                style="@style/abc"
+                android:text=")" />
+
+            <TextView
+                android:id="@+id/c_Nine"
+                style="@style/ab"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/c_Six"
+                style="@style/ab"
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/c_Three"
+                style="@style/ab"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/c_Dot"
+                style="@style/ab"
+                android:text="." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/c_Div"
+                style="@style/abc"
+                android:text=":" />
+
+            <TextView
+                android:id="@+id/c_Multi"
+                style="@style/abc"
+                android:text="x" />
+
+            <TextView
+                android:id="@+id/c_Minus"
+                style="@style/abc"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/c_Plus"
+                style="@style/abc"
+                android:text="+" />
+
+            <TextView
+                android:id="@+id/c_Equals"
+                style="@style/abc"
+                android:text="=" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/c_Expression"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:layout_gravity="end"
+            android:maxLines="1"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/c_Result"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_gravity="end"
+            android:maxLines="1"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
